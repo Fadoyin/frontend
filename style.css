@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Mono';
+}
+
+body{
+    height:auto;
+    width: 100%;
+}
+
+.topnav{
+ font-family: 'Inconsolata';
+font-size: 24px;
+font-weight: 700;
+  
+}
+/* .container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+} */
+/* .image{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+} */
+
+/* .image img{
+    width: 450px;
+    height: auto;
+} */
+
+/* .textbox{
+    width: 100%;
+    height: auto;
+    position:fixed;
+    right: -700px;
+}
+
+
+ */
+ .textbox h1{
+    font-family: Space Mono;
+    font-size: 33px;
+    font-weight: 700;
+
+
+}
+ .subNews{
+    font-family: Space Mono;
+    font-size: 17px;
+    font-weight: 400;
+    /* letter-spacing: -0.035em; */
+    color: #4F4F4F;
+
+}
+ button{
+    background: #333333;
+    /* width:150px;
+    height:35px; */
+    border: 2px;
+    border-radius: 0px;
+    /* margin-top: 18px; */
+    font-size: 12px;
+    color: aliceblue;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    max-height: 400px;
+    max-width: 400px;
+
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 5rem;
+}
